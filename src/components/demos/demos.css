@@ -1,0 +1,53 @@
+/* Zeitwerk service demos — scoped with .zwd */
+.zwd {
+  --zwd-ink: #171717; --zwd-red: #E2000F; --zwd-line: #e5e5e5; --zwd-muted: #737373;
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: clamp(24px, 4vw, 72px);
+  align-items: start;
+  padding: clamp(32px, 5vw, 72px) 0;
+  border-top: 1px solid var(--zwd-ink);
+  color: var(--zwd-ink);
+  font-family: 'General Sans', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+.zwd-copy { min-width: 0; }
+.zwd-index { font-size: 13px; font-weight: 600; letter-spacing: .08em; color: var(--zwd-red); }
+.zwd-kicker { margin: 18px 0 8px; font-size: 13px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--zwd-muted); }
+.zwd-title { margin: 0 0 28px; font-size: clamp(26px, 3vw, 40px); line-height: 1.08; font-weight: 600; letter-spacing: -0.02em; }
+.zwd-steps { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--zwd-line); }
+.zwd-steps li {
+  position: relative; display: grid; grid-template-columns: 36px 1fr; gap: 8px;
+  padding: 14px 0; border-bottom: 1px solid var(--zwd-line);
+  font-size: 15px; line-height: 1.4; color: #a3a3a3;
+  transition: color .4s ease;
+}
+.zwd-steps li.done, .zwd-steps li.on { color: var(--zwd-ink); }
+.zwd-steps li.on .zwd-n { color: var(--zwd-red); }
+.zwd-n { font-variant-numeric: tabular-nums; font-size: 12px; font-weight: 600; padding-top: 2px; }
+.zwd-bar {
+  position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%;
+  background: var(--zwd-red); transform-origin: left center;
+  animation-name: zwd-progress; animation-timing-function: linear; animation-fill-mode: both;
+}
+@keyframes zwd-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.zwd-note { margin: 20px 0 0; font-size: 12px; line-height: 1.5; color: var(--zwd-muted); max-width: 34ch; }
+.zwd-stage { min-width: 0; background: #fafafa; border: 1px solid var(--zwd-line); padding: clamp(12px, 2.2vw, 28px); }
+.zwd-stage svg { display: block; width: 100%; height: auto; aspect-ratio: 520 / 400; overflow: visible; }
+.zwd-stage text { font-family: 'General Sans', 'Inter', system-ui, sans-serif; }
+.zwd-label { font-size: 12px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
+@media (max-width: 860px) {
+  /* mobile: title -> stage -> steps; stage bleeds to the viewport edge.
+     Set --zwd-bleed to the host page's horizontal padding (default 20px). */
+  .zwd { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .zwd-copy { display: contents; }
+  .zwd-index, .zwd-kicker, .zwd-title { order: 0; }
+  .zwd-title { margin-bottom: 20px; }
+  .zwd-stage { order: 1; margin: 0 calc(-1 * var(--zwd-bleed, 20px)) 20px; padding: 8px 6px; border-left: 0; border-right: 0; }
+  .zwd-steps { order: 2; }
+  .zwd-note { order: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .zwd-bar { display: none; }
+  .zwd-steps li { transition: none; }
+}

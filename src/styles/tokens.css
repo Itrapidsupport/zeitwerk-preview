@@ -1,0 +1,26 @@
+/* App token layer: lane 03 brand tokens (brand-tokens.css, generated there) + aliases kept for
+   lane 08 component names. Swap point: re-copy 03-brand-system/tokens/tokens.css -> brand-tokens.css. */
+@import './fonts.css';
+@import './brand-tokens.css';
+
+:root {
+  --zw-red-ink: var(--zw-red-press);
+  --zw-mute: var(--zw-graphite);
+  --zw-ink-deep: #0e0e0e;
+  --zw-line-dark: var(--zw-line-on-ink);
+  --zw-font-body: var(--zw-font-text);
+  --zw-gutter: var(--zw-space-gutter);
+  --zw-header-h: 64px;
+  --mk-header-h: var(--zw-header-h);
+  --zw-ease-out: var(--zw-ease-out-expo);
+  --zw-ease-io: var(--zw-ease-in-out);
+  --zw-dur-1: var(--zw-dur-fast);
+  --zw-dur-2: var(--zw-dur-base);
+  --zw-dur-3: var(--zw-dur-reveal);
+  --zw-step--1: var(--zw-text-small);
+  --zw-step-0: var(--zw-text-body);
+  --zw-section: var(--zw-space-section);
+}
+@media (max-width: 767px) {
+  :root { --zw-header-h: 58px; }
+}

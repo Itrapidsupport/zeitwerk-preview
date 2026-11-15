@@ -1,0 +1,138 @@
+/* layered */
+@layer mk {
+/* Zeitwerk motion kit - structural CSS only (no brand styling except the VT hairline).
+   Rule: content is visible by default. Pre-hiding happens ONLY under html.mk-js (added by JS,
+   never when reduced motion) on elements still carrying [data-mk-pending]. */
+:root {
+  --mk-header-h: 72px;
+  --mk-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --mk-accent: #e2000f;
+  --mk-line: #e5e5e5;
+}
+
+html.mk-js [data-mk-pending] { visibility: hidden; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mk-sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* LineReveal: SplitText mask wrappers; padding keeps descenders (g, y, p) from being clipped */
+.mk-text .mk-line-mask, .mk-text .mk-word-mask { padding-bottom: 0.14em; margin-bottom: -0.14em; }
+.mk-text .mk-line { will-change: transform; }
+
+/* MaskReveal */
+.mk-mask { display: block; overflow: hidden; padding-bottom: 0.14em; margin-bottom: -0.14em; }
+.mk-mask-inner { display: block; }
+
+/* ImageReveal */
+.mk-image { position: relative; overflow: hidden; width: 100%; }
+.mk-image-clip { position: absolute; inset: 0; overflow: hidden; }
+.mk-image-media { position: absolute; inset: 0; transform-origin: 50% 50%; }
+.mk-image-media > img, .mk-image-media > svg, .mk-image-media > video { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* Parallax */
+.mk-parallax { position: relative; overflow: hidden; width: 100%; }
+.mk-parallax-inner { position: absolute; inset: 0; will-change: transform; }
+.mk-parallax-inner > img, .mk-parallax-inner > svg, .mk-parallax-inner > video { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* PinnedProcess */
+.mk-process { position: relative; }
+.mk-process-stack { list-style: none; margin: 0; padding: 0; display: grid; gap: clamp(40px, 8vw, 72px); }
+.mk-process-item { display: grid; gap: 12px; border-top: 1px solid var(--mk-line); padding-top: 20px; }
+.mk-process-item .mk-process-visual { aspect-ratio: 4 / 3; position: relative; overflow: hidden; }
+.mk-process--pinned .mk-process-stage {
+  position: sticky; top: var(--mk-header-h); height: calc(100svh - var(--mk-header-h));
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 5vw, 96px); align-items: center;
+}
+.mk-process-copy { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: clamp(24px, 3vw, 48px); align-items: center; }
+.mk-process-rail { position: relative; display: grid; gap: 14px; padding-left: 16px; border-left: 1px solid var(--mk-line); }
+.mk-process-tab { all: unset; cursor: pointer; font-size: 13px; letter-spacing: 0.02em; opacity: 0.45; transition: opacity 0.4s var(--mk-ease); white-space: nowrap; }
+.mk-process-tab.is-active { opacity: 1; }
+.mk-process-progress { position: absolute; left: -1px; top: 0; width: 1px; height: 100%; background: var(--mk-accent); transform-origin: top; transition: transform 0.6s var(--mk-ease); }
+.mk-process-active { position: relative; min-height: 14em; }
+.mk-process-panel { display: grid; gap: 14px; }
+.mk-process--pinned .mk-process-visual { position: relative; aspect-ratio: 4 / 3; max-height: calc(100svh - var(--mk-header-h) - 64px); width: 100%; overflow: hidden; }
+.mk-process-visual-inner { position: absolute; inset: 0; }
+.mk-process-visual-inner > *, .mk-process-item .mk-process-visual > * { width: 100%; height: 100%; display: block; }
+
+/* HorizontalRail */
+.mk-rail { position: relative; }
+.mk-rail-track { list-style: none; margin: 0; padding: 0; display: flex; width: max-content; }
+.mk-rail-item { flex: none; }
+.mk-rail--native .mk-rail-viewport { overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.mk-rail--native .mk-rail-viewport::-webkit-scrollbar { display: none; }
+.mk-rail--native .mk-rail-item { scroll-snap-align: start; }
+.mk-rail--pinned .mk-rail-stage { position: sticky; top: var(--mk-header-h); height: calc(100svh - var(--mk-header-h)); display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+.mk-rail--pinned .mk-rail-track { will-change: transform; }
+.mk-rail-progress { height: 1px; background: var(--mk-line); margin-top: 24px; }
+.mk-rail-progress > span { display: block; height: 100%; background: var(--mk-accent); transform: scaleX(0); transform-origin: left; }
+
+/* Counter */
+.mk-counter { display: inline-grid; font-variant-numeric: tabular-nums; }
+.mk-counter > span { grid-area: 1 / 1; }
+.mk-counter-ghost { visibility: hidden; }
+
+/* MagneticButton (structure; skin with className) */
+.mk-magnetic-wrap { display: inline-block; }
+.mk-magnetic { display: inline-flex; align-items: center; gap: 0.75em; min-height: 48px; padding: 0 1.5em; border-radius: 0; cursor: pointer; text-decoration: none; }
+.mk-magnetic-label { display: inline-flex; align-items: center; gap: 0.75em; }
+
+/* Marquee */
+.mk-marquee { overflow: hidden; }
+.mk-marquee-track { display: flex; width: max-content; }
+.mk-marquee-copy { display: flex; flex: none; align-items: center; }
+.mk-marquee.is-static .mk-marquee-track { width: auto; }
+.mk-marquee.is-static .mk-marquee-copy { flex-wrap: wrap; flex: 1 1 auto; }
+.mk-marquee.is-running .mk-marquee-track { animation: mk-marquee var(--mk-mq-dur) linear infinite; will-change: transform; }
+.mk-marquee.is-running .mk-marquee-track.is-reverse { animation-direction: reverse; }
+.mk-marquee--hover.is-running:hover .mk-marquee-track { animation-play-state: paused; }
+@keyframes mk-marquee { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(calc(-1 * var(--mk-mq-w)), 0, 0); } }
+
+/* View Transitions: straight motion only */
+@keyframes mk-vt-out { to { opacity: 0; transform: translateY(-24px); } }
+@keyframes mk-vt-in { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(0 0 0 0); } }
+::view-transition-old(root) { animation: mk-vt-out 0.45s var(--mk-ease) both; }
+::view-transition-new(root) { animation: mk-vt-in 0.7s var(--mk-ease) 0.1s both; }
+::view-transition-group(root) { background: var(--mk-accent); }
+
+
+/* ScrubScene */
+.mk-scene { position: relative; }
+.mk-scene[data-mode="scrub"] .mk-scene-stage { position: sticky; top: var(--mk-header-h); height: calc(100svh - var(--mk-header-h)); overflow: hidden; }
+
+/* DepthParallax */
+.mk-depth { position: relative; overflow: hidden; }
+.mk-depth-layer { position: absolute; inset: 0; will-change: transform; }
+.mk-depth-layer--bleed { inset: -12% -4%; }
+
+/* SectionTransition */
+.mk-section { position: relative; }
+.mk-section-curtain { position: absolute; inset: 0; transform-origin: top; pointer-events: none; z-index: 2; }
+html:not(.mk-js) .mk-js-only { display: none; }
+
+/* DrawLine */
+.mk-draw svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+/* InlineVideo / ScrollVideo */
+.mk-video { position: relative; overflow: hidden; width: 100%; background: #171717; }
+.mk-video--cover { position: absolute; inset: 0; }
+.mk-video-poster, .mk-video-el, .mk-scrollvideo-el { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.mk-video-el { opacity: 0; transition: opacity 0.6s var(--mk-ease); }
+.mk-video-el.is-ready { opacity: 1; }
+.mk-scrollvideo { position: relative; }
+.mk-scrollvideo-stage--pinned { position: sticky; top: var(--mk-header-h); height: calc(100svh - var(--mk-header-h)); overflow: hidden; background: #171717; }
+.mk-scrollvideo-overlay { position: absolute; inset: 0; z-index: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  html.mk-js [data-mk-pending] { visibility: visible; }
+  .mk-marquee-track { animation: none !important; }
+  ::view-transition-old(root), ::view-transition-new(root) { animation: none !important; }
+  .mk-process-tab, .mk-process-progress { transition: none; }
+}
+html.mk-reduced .mk-marquee-track { animation: none !important; }
+
+}

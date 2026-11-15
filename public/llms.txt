@@ -1,0 +1,23 @@
+# Zeitwerk
+
+> Zeitwerk is a business automation and AI consulting and implementation firm based in Vaughan, Ontario, serving Toronto and the Greater Toronto Area (Vaughan, Mississauga, Brampton, Markham, Richmond Hill), on-site or remote. It designs, builds and maintains automation systems: AI receptionists, quote drafting, invoice follow-up, inbox triage, document intake and reporting. Engagements start with a free consultation and workflow audit.
+
+Contact: info@zeitwerk.ca. Founder: Nauman Khan. Full text of this file's pages: https://zeitwerk.ca/llms-full.txt
+
+## Services
+- [AI receptionists & phone automation](https://zeitwerk.ca/services/ai-receptionist): answers, qualifies and routes every call 24/7, including after hours; books appointments; sends a transcript of every call.
+- [Quote & estimate drafting](https://zeitwerk.ca/services/quote-automation): turns inbound requests into accurate, branded quotes in minutes using the client's own pricing rules, with human review for anything unusual.
+- [Invoice follow-up & collections](https://zeitwerk.ca/services/invoice-follow-up): polite, personalized reminders by email, two-way SMS and AI voice, escalating only disputes and exceptions to staff.
+- [Inbox triage & email automation](https://zeitwerk.ca/services/inbox-triage): classifies, prioritizes and routes email and drafts replies for review, on Microsoft 365 and Google Workspace.
+- [Document intake & processing](https://zeitwerk.ca/services/document-intake): extracts and validates data from PDFs, scans, photos and forms straight into accounting, ERP or databases.
+- [Reporting & data automation](https://zeitwerk.ca/services/reporting-dashboards): live dashboards and scheduled reports that replace manual spreadsheet assembly.
+- [All services](https://zeitwerk.ca/services)
+
+## Case studies
+- [Property Intelligence Platform](https://zeitwerk.ca/projects/property-intelligence-platform): real-time executive dashboard across 171 properties and 17,968 units; manual portfolio reporting eliminated; about 40 hours a week saved.
+- [Intelligent Collections Engine](https://zeitwerk.ca/projects/intelligent-collections-engine): two-way SMS and AI voice rent collections; 98% SMS delivery; 70% fewer manual calls.
+- [All projects](https://zeitwerk.ca/projects)
+
+## Optional
+- [Privacy Policy](https://zeitwerk.ca/privacy)
+- [Terms of Service](https://zeitwerk.ca/terms)

@@ -1,0 +1,19 @@
+{
+ "hero-escapement": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 7.6,
+  "poster": "hero-escapement-poster.jpg",
+  "sizes": {
+   "720": {
+    "mp4": 1019785,
+    "webm": 988565
+   },
+   "1080": {
+    "mp4": 2592077,
+    "webm": 2889585
+   }
+  },
+  "note": "sharpest 2.0-5.8s of the lane 11 4K master, ping-pong loop, light denoise+unsharp; desktop webm is 2560x1440"
+ }
+}

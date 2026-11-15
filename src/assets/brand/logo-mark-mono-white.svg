@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" role="img" aria-label="Zeitwerk">
+  <path d="M20 20 H60 L50 40 H10 Z" fill="#FFFFFF"/>
+  <path d="M50 60 H90 L80 80 H40 Z" fill="#FFFFFF"/>
+  <path d="M55 40 L45 60" stroke="#5C5C5C" stroke-width="1"/>
+</svg>

@@ -1,0 +1,16 @@
+/* Zeitwerk self-hosted fonts - Latin + Latin-1 (incl. French accents), woff2.
+   Copy this folder's *.woff2 to the app's public/fonts/ and keep url() paths as /fonts/...
+   General Sans: ITF Free Font License (see GeneralSans-LICENSE-FFL.txt). Inter: SIL OFL 1.1. */
+
+@font-face { font-family: 'General Sans'; src: url('/fonts/GeneralSans-Medium-latin.woff2') format('woff2');   font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'General Sans'; src: url('/fonts/GeneralSans-Semibold-latin.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Inter'; src: url('/fonts/Inter-Light-latin.woff2') format('woff2');    font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/Inter-Regular-latin.woff2') format('woff2');  font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/Inter-Medium-latin.woff2') format('woff2');   font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/Inter-SemiBold-latin.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/Inter-Bold-latin.woff2') format('woff2');     font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Metric-matched fallbacks keep CLS ~0 while webfonts load. */
+@font-face { font-family: 'Inter Fallback'; src: local('Arial'); size-adjust: 107%; ascent-override: 90%; descent-override: 22.4%; line-gap-override: 0%; }
+@font-face { font-family: 'General Sans Fallback'; src: local('Arial'); size-adjust: 102%; ascent-override: 97%; descent-override: 23%; line-gap-override: 0%; }

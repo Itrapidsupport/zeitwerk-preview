@@ -1,0 +1,1472 @@
+{
+  "404": {
+    "title": "404",
+    "route": "any unknown path",
+    "meta": {
+      "meta_title": "Page not found | Zeitwerk",
+      "meta_description": "This page does not exist or has moved. Return to the Zeitwerk home page, browse our automation services or get in touch.",
+      "robots": "noindex"
+    },
+    "notes": [],
+    "sections": {
+      "main": {
+        "lines": [
+          "Eyebrow: 404",
+          "Headline: This part is not in the mechanism.",
+          "Body: The page you asked for does not exist or has moved. Everything else is still running.",
+          "Primary CTA: Back to home",
+          "Secondary CTA: See services",
+          "Tertiary link: Contact us"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "approach": {
+    "title": "Approach / About",
+    "route": "/approach (new page; the live site has a #process section on the home page and no /about or /approach route)",
+    "meta": {
+      "meta_title": "How We Work: Our Automation Process | Zeitwerk",
+      "meta_description": "Zeitwerk is a Vaughan consulting and implementation firm. How we take a manual process from audit to a tested, monitored system in six stages."
+    },
+    "notes": [
+      "Source: home page \"How We Do It\" six stages, services intro, and Organization schema on zeitwerk.ca (founder, address). No team, history or numbers beyond that."
+    ],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: Approach",
+          "Headline: Workflow first. Automation second.",
+          "Subhead: We learn how the work actually moves through your business, then engineer the system around it. Never the other way around."
+        ],
+        "items": {}
+      },
+      "about": {
+        "lines": [
+          "Label: About Zeitwerk",
+          "Headline: A small firm that builds the whole thing.",
+          "Body: Zeitwerk is a consulting and implementation firm based in Vaughan, Ontario. We design, build and maintain the automation behind business operations across Toronto and the GTA, from the first audit to the system running in production.",
+          "Body: The name is German for clockwork. We take it literally: every part should have a reason to be there, and the whole system should keep running when nobody is watching it.",
+          "Founder line (optional, needs NK OK): Founded by Nauman Khan, Systems Architect."
+        ],
+        "items": {}
+      },
+      "stages": {
+        "lines": [
+          "Label: The process",
+          "Headline: Six stages, in order."
+        ],
+        "items": {
+          "01 Discovery and audit": [
+            "Body: We study your current workflows, talk to the people who run them and find the bottlenecks worth automating first.",
+            "You get: A short list of what to automate, in order, and why."
+          ],
+          "02 Solution design": [
+            "Body: We architect a system that fits your business, your existing tools and the volume you expect.",
+            "You get: A design you can read before any code is written."
+          ],
+          "03 System build": [
+            "Body: We write the automation and integrations, including the error handling for when inputs are wrong or a service is down.",
+            "You get: Working software, built against your real data."
+          ],
+          "04 Integration": [
+            "Body: We connect the tools you already run, such as your CRM, ERP and email, so they behave as one system instead of several.",
+            "You get: No new app for your team to learn unless one is needed."
+          ],
+          "05 Testing and QA": [
+            "Body: We stress-test the edge cases before launch, so the system runs reliably without someone watching it.",
+            "You get: A launch that does not depend on luck."
+          ],
+          "06 Launch and scale": [
+            "Body: We deploy, monitor real usage and keep tuning as your business and your volume change.",
+            "You get: Ongoing support from the people who built it."
+          ]
+        }
+      },
+      "principles": {
+        "lines": [
+          "Label: How we decide",
+          "- People approve until you trust it. Drafts for review come first, and full automation comes when you choose.",
+          "- Uncertain cases go to a person. Confidence thresholds route anything unclear to your team with the context attached.",
+          "- We build on what you have. Microsoft 365, Google Workspace, your CRM and your accounting system come first.",
+          "- You see where the data goes. Before launch, we show you what the system reads, where it flows and what it stores.",
+          "Source note: each principle restates FAQ answers on the live service pages."
+        ],
+        "items": {}
+      },
+      "area": {
+        "lines": [
+          "Body: On site or remote across Toronto, Vaughan, Mississauga, Brampton, Markham, Richmond Hill and the rest of the GTA."
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Start with the audit.",
+          "Body: Book a free consultation. We will look at your workflows and tell you plainly what is worth automating.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "case-intelligent-collections-engine": {
+    "title": "Case study: Intelligent Collections Engine",
+    "route": "/projects/intelligent-collections-engine",
+    "meta": {
+      "meta_title": "Intelligent Collections Engine, Case Study | Zeitwerk",
+      "meta_description": "How Zeitwerk automated rent collections with two-way SMS and AI voice: 98% SMS delivery, 70% fewer manual calls and agents handling only escalations."
+    },
+    "notes": [
+      "Source: zeitwerk.ca/projects/intelligent-collections-engine (fetched 2026-11-15). Figures are verbatim from the live page."
+    ],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: Case study / Finance / 2024",
+          "Headline: Collections that run themselves.",
+          "Subhead: Static scripts gave way to two-way SMS and AI voice for an organization collecting rent across a residential portfolio. Manual calls fell by 70%, and people now handle only the exceptions.",
+          "Footnote: Client details anonymized. Reference available on request."
+        ],
+        "items": {}
+      },
+      "figures": {
+        "lines": [
+          "98% / SMS delivery rate",
+          "70% / fewer manual calls",
+          "~$120K / estimated savings per year",
+          "First contact / fully AI-driven"
+        ],
+        "items": {}
+      },
+      "challenge": {
+        "lines": [
+          "Label: The challenge",
+          "Headline: Same message, every resident.",
+          "Body: Rent collections ran on static scripts, with one message regardless of a resident's history or situation. Engagement was low, delinquency was high, and staff filled the gap the expensive way, one manual call after another.",
+          "Body: When every reminder sounds the same, residents tune it out. The accounts that need a real conversation get buried under the ones that only need a well-timed nudge."
+        ],
+        "items": {}
+      },
+      "build": {
+        "lines": [
+          "Label: What we built",
+          "Headline: Outreach that adapts to each account.",
+          "Body: Zeitwerk built a two-way SMS and AI voice system, with messages written for each resident by GPT. Pacing is calibrated on purpose, and every campaign is tracked from first touch to resolution.",
+          "- Two-way SMS with a 98% delivery rate, so residents can reply as well as receive",
+          "- Natural AI voice calls for accounts that need more than a text",
+          "- GPT-personalized messages per resident, with calibrated pacing",
+          "- Campaign tracking across every touch, so no account is chased twice or missed"
+        ],
+        "items": {}
+      },
+      "result": {
+        "lines": [
+          "Label: The result",
+          "Headline: People handle the judgment calls.",
+          "Body: AI now makes every first contact. Manual calls dropped by 70%, and agents step in only on escalated cases, where judgment matters. The change is worth an estimated $120K a year in staff time and collections efficiency."
+        ],
+        "items": {}
+      },
+      "stack": {
+        "lines": [
+          "Label: Technology",
+          "Next.js / Supabase / Twilio / ElevenLabs / OpenAI GPT-4o"
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "Body: This is our invoice follow-up and collections service. The same voice technology runs our AI receptionists.",
+          "Links: Invoice follow-up -> /services/invoice-follow-up / AI receptionists -> /services/ai-receptionist / All projects -> /projects"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Stop chasing. Start collecting.",
+          "Body: Book a free consultation. We will audit your receivables workflow and show you what to automate first.",
+          "Primary CTA: Start a conversation",
+          "Next: Next case study: Property Intelligence Platform"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "case-property-intelligence-platform": {
+    "title": "Case study: Property Intelligence Platform",
+    "route": "/projects/property-intelligence-platform",
+    "meta": {
+      "meta_title": "Property Intelligence Platform, Real Estate Case Study | Zeitwerk",
+      "meta_description": "How Zeitwerk replaced manual portfolio reporting with a real-time executive dashboard across 171 properties and 17,968 units, saving about 40 hours a week."
+    },
+    "notes": [
+      "Source: zeitwerk.ca/projects/property-intelligence-platform (fetched 2026-11-15). Figures are verbatim from the live page."
+    ],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: Case study / Real estate / 2024",
+          "Headline: One dashboard for 171 properties and 17,968 units.",
+          "Subhead: Reporting used to be assembled by hand and was days old on arrival. Now leadership sees the whole portfolio live.",
+          "Footnote: Client details anonymized. Reference available on request."
+        ],
+        "items": {}
+      },
+      "figures": {
+        "lines": [
+          "17,968 / units with real-time visibility",
+          "171 / properties on one dashboard",
+          "~40 hrs / manual work saved per week",
+          "~$80K / estimated savings per year"
+        ],
+        "items": {}
+      },
+      "challenge": {
+        "lines": [
+          "Label: The challenge",
+          "Headline: No single source of truth.",
+          "Body: Portfolio data sat in separate systems and spreadsheets. Every report the leadership team saw had been built by hand, so the numbers were already days out of date by the time anyone acted on them.",
+          "Body: At that scale, manual assembly took roughly a full workweek of staff time every week. Simple questions, such as how a property is performing or where the problems are concentrated, took days to answer."
+        ],
+        "items": {}
+      },
+      "build": {
+        "lines": [
+          "Label: What we built",
+          "Headline: The whole portfolio in one live view.",
+          "Body: Zeitwerk designed and built a real-time executive dashboard. Portfolio KPIs calculate automatically, every property sits on a map, and any number on screen can be drilled into, from portfolio level down to a single building.",
+          "- Real-time visibility across all 17,968 units, with no waiting for the weekly report",
+          "- Geospatial mapping with drill-down analytics for every property",
+          "- Automated portfolio KPIs in place of hand-built spreadsheets"
+        ],
+        "items": {}
+      },
+      "result": {
+        "lines": [
+          "Label: The result",
+          "Headline: Manual portfolio reporting, gone.",
+          "Body: The weekly assembly exercise became a self-service dashboard. Leadership checks the numbers when they need them, and the numbers are always current. The change saves an estimated 40 hours of staff time a week, roughly $80K a year."
+        ],
+        "items": {}
+      },
+      "stack": {
+        "lines": [
+          "Label: Technology",
+          "Next.js / Supabase / Leaflet / Microsoft Graph API"
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "Body: This is our reporting and dashboards service, and it pairs well with document intake.",
+          "Links: Reporting and dashboards -> /services/reporting-dashboards / Document intake -> /services/document-intake / All projects -> /projects"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Your portfolio could run like this.",
+          "Body: Book a free consultation. We will audit your reporting and show you what to automate first.",
+          "Primary CTA: Start a conversation",
+          "Next: Next case study: Intelligent Collections Engine"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "route": "/contact (new page; live site uses /#contact and a \"Book consultation\" button)",
+    "meta": {
+      "meta_title": "Book a Free Consultation | Zeitwerk, Vaughan, Ontario",
+      "meta_description": "Book a free consultation with Zeitwerk. We will audit your workflows and show you what to automate first. Vaughan, Ontario, serving the GTA."
+    },
+    "notes": [
+      "Facts from zeitwerk.ca: email info@zeitwerk.ca (service pages), info@zeitwerk.ca (privacy/terms contact), address 7810 Keele St, Vaughan, ON L4K 4G7 (Organization schema). No phone number is published on the live site, so none is shown."
+    ],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: Contact",
+          "Headline: Tell us what still runs by hand.",
+          "Subhead: Book a free consultation. We will audit your workflows and show you what to automate first, with a clear recommendation and quote before you commit to anything."
+        ],
+        "items": {}
+      },
+      "form": {
+        "lines": [
+          "Intro: A few lines is enough. We reply by email.",
+          "(Labels, placeholders, help text and errors live in microcopy.json -> form.)"
+        ],
+        "items": {}
+      },
+      "direct": {
+        "lines": [
+          "Label: Prefer email?",
+          "Email: info@zeitwerk.ca",
+          "Label: Office",
+          "Address: 7810 Keele St, Vaughan, ON L4K 4G7",
+          "Label: Area",
+          "Body: Toronto, Vaughan, Mississauga, Brampton, Markham, Richmond Hill and the rest of the GTA, on site or remote."
+        ],
+        "items": {}
+      },
+      "what-happens": {
+        "lines": [
+          "Label: What happens next",
+          "01 We read your note and reply to arrange a time.",
+          "02 In the consultation we walk through the workflow you want to fix.",
+          "03 You get a recommendation and a quote. Nothing starts until you say so."
+        ],
+        "items": {}
+      },
+      "success (after submit)": {
+        "lines": [
+          "Headline: Thanks. Your note is in.",
+          "Body: We will reply by email to set up a time. If it is urgent, write to info@zeitwerk.ca.",
+          "CTA: Back to home"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "home": {
+    "title": "Home",
+    "route": "/",
+    "meta": {
+      "meta_title": "Business Automation & AI Consulting, Toronto & GTA | Zeitwerk",
+      "meta_description": "Zeitwerk designs and builds automation for Toronto and GTA businesses: AI receptionists, quoting, invoice follow-up, inbox triage, documents and reporting.",
+      "og_title": "Zeitwerk. Automation, engineered like clockwork.",
+      "og_description": "A Vaughan consulting and implementation firm that designs, builds and maintains the automation behind business operations across the GTA."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: Business automation and AI, Vaughan, Ontario",
+          "Headline: Automation, engineered like clockwork.",
+          "Headline (alt): Precise systems for the work nobody should do by hand.",
+          "Subhead: We design, build and maintain the systems behind your operations, so your team stops re-keying, chasing and copying, and the business can grow without adding headcount.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: See the work",
+          "Scroll cue: Scroll"
+        ],
+        "items": {}
+      },
+      "name": {
+        "lines": [
+          "Label: Zeitwerk /tsait-verk/",
+          "Line: German for clockwork. Every part has a job, and the whole thing keeps time.",
+          "Pronunciation button (aria-label): Hear how Zeitwerk is pronounced"
+        ],
+        "items": {}
+      },
+      "pillars": {
+        "lines": [
+          "Section label: What we build"
+        ],
+        "items": {
+          "pillar-01 Workflow automation": [
+            "Headline: Your operations, running on their own.",
+            "Body: We replace manual handoffs, repetitive data entry and fragile spreadsheet workflows with automation that runs around the clock.",
+            "Points:",
+            "- Process digitization from intake to close",
+            "- Task routing to the right person",
+            "- Live status tracking"
+          ],
+          "pillar-02 Data and reporting": [
+            "Headline: Numbers you can act on today.",
+            "Body: Raw data becomes dashboards, scheduled reports and alerts, so the people who decide always see what matters and see it while it is still current.",
+            "Points:",
+            "- Automated report generation",
+            "- Live operational dashboards",
+            "- Anomaly detection and alerts"
+          ],
+          "pillar-03 Security and compliance": [
+            "Headline: Built to protect. Built to last.",
+            "Body: Encryption, audit trails and compliance are designed in from the first sketch, never added at the end.",
+            "Points:",
+            "- Encryption throughout",
+            "- Complete audit trails",
+            "- Designed around PIPEDA",
+            "Note for integration: the live site also claims \"SOC 2 & PIPEDA compliant\" and \"bank-grade encryption\". Held back here until NK confirms (see README open questions)."
+          ]
+        }
+      },
+      "services": {
+        "lines": [
+          "Section label: Services",
+          "Headline: Six systems we build most often.",
+          "Intro: Most engagements combine two or three of these. If your problem does not fit neatly into one, that is normal.",
+          "| # | Name | Line | Link |",
+          "|---|------|------|------|",
+          "| 01 | AI receptionists | Every call answered, qualified and routed, after hours included. | /services/ai-receptionist |",
+          "| 02 | Quote automation | Inbound requests become accurate, branded quotes in minutes instead of days. | /services/quote-automation |",
+          "| 03 | Invoice follow-up | Polite, persistent reminders on unpaid invoices, without the awkward calls. | /services/invoice-follow-up |",
+          "| 04 | Inbox triage | Every message sorted, prioritized and drafted, so your team handles only what needs them. | /services/inbox-triage |",
+          "| 05 | Document intake | Data from PDFs, forms and scans goes straight into your systems with no re-keying. | /services/document-intake |",
+          "| 06 | Reporting and dashboards | Live dashboards and scheduled reports in place of hours of spreadsheet assembly. | /services/reporting-dashboards |",
+          "Row CTA: Learn more",
+          "Section CTA: All services"
+        ],
+        "items": {}
+      },
+      "proof": {
+        "lines": [
+          "Section label: Selected work",
+          "Headline: Running in production."
+        ],
+        "items": {
+          "proof-01 Property Intelligence Platform": [
+            "Sector: Real estate, 2024",
+            "Line: One live dashboard for 171 properties and 17,968 units, in place of reports assembled by hand.",
+            "Figures: ~40 hrs of manual work saved per week / ~$80K per year estimated savings",
+            "CTA: Read the case study"
+          ],
+          "proof-02 Intelligent Collections Engine": [
+            "Sector: Finance, 2024",
+            "Line: Two-way SMS and AI voice for rent collections. AI handles first contact, and agents take only the escalations.",
+            "Figures: 70% fewer manual calls / 98% SMS delivery rate",
+            "CTA: Read the case study",
+            "Footnote: Client details anonymized. References available on request.",
+            "Section CTA: All projects"
+          ]
+        }
+      },
+      "process": {
+        "lines": [
+          "Section label: Process",
+          "Headline: Six stages, done in order.",
+          "Intro: We understand the workflow first, then engineer the automation around it. Never the other way around.",
+          "01 Discovery and audit: We study how work moves through your business today and find the bottlenecks worth automating first.",
+          "02 Solution design: We architect a system that fits your business, your tools and the scale you expect.",
+          "03 System build: We write the automation and integrations, with error handling for the cases that go wrong.",
+          "04 Integration: We connect the tools you already run, including your CRM, ERP and email, so they work as one system.",
+          "05 Testing and QA: We stress-test the edge cases before launch so the system runs without someone watching it.",
+          "06 Launch and scale: We deploy, monitor and keep tuning as your volume and your business change.",
+          "CTA: How we work"
+        ],
+        "items": {}
+      },
+      "local": {
+        "lines": [
+          "Headline: Based in Vaughan. Working across the GTA.",
+          "Body: Zeitwerk is a consulting and implementation firm at 7810 Keele St in Vaughan. We work with businesses in Toronto, Vaughan, Mississauga, Brampton, Markham, Richmond Hill and the rest of the GTA, on site or remotely."
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Find out what to automate first.",
+          "Body: Book a free consultation. We will audit your workflows and show you where automation pays back first, before you commit to anything.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: info@zeitwerk.ca"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "legal": {
+    "title": "Legal pages: Privacy Policy and Terms of Service",
+    "route": "/privacy, /terms",
+    "meta": {},
+    "notes": [
+      "Rule: keep the legal text exactly as published on zeitwerk.ca. Do not reword, shorten or \"humanize\" it. Only the page chrome below is new.",
+      "Verbatim snapshots (plain text, extracted 2026-11-15 by curl): ../source/_privacy.txt and ../source/_terms.txt. Raw HTML: ../source/_privacy.html, ../source/_terms.html. Integration should port the body from the raw HTML so headings, lists and links survive. Privacy shows \"Last updated: February 8, 2026\"; keep whatever date the live page shows at build time."
+    ],
+    "sections": {
+      "/privacy": {
+        "lines": [
+          "Meta title: Privacy Policy | Zeitwerk",
+          "Meta description: How Zeitwerk collects, uses, stores and protects the personal information of clients, prospective clients and visitors to zeitwerk.ca.",
+          "Eyebrow: Legal",
+          "Headline: Privacy Policy",
+          "Back link: Back to home",
+          "Contact line (already in policy): info@zeitwerk.ca"
+        ],
+        "items": {}
+      },
+      "/terms": {
+        "lines": [
+          "Meta title: Terms of Service | Zeitwerk",
+          "Meta description: The terms and conditions that govern use of the Zeitwerk website and our business automation and AI consulting services for Toronto and GTA clients.",
+          "Eyebrow: Legal",
+          "Headline: Terms of Service",
+          "Back link: Back to home"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects hub",
+    "route": "/projects",
+    "meta": {
+      "meta_title": "Projects & Case Studies | Zeitwerk",
+      "meta_description": "Automation and AI systems Zeitwerk has designed, built and deployed: platforms, AI and data systems, operations tooling and internal tools."
+    },
+    "notes": [
+      "Source rule: every project, figure and stack below is reworded from zeitwerk.ca/projects (fetched 2026-11-15). Do not add projects, clients, logos or figures. All savings are the live site's own estimates and must keep the \"~\" and \"estimated\" framing."
+    ],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: Projects",
+          "Headline: Systems in production.",
+          "Subhead: Designed, engineered and deployed. Each one replaced a manual process with something that runs on its own.",
+          "Footnote: Client details anonymized. References available on request."
+        ],
+        "items": {}
+      },
+      "filters": {
+        "lines": [
+          "All / Platforms (3) / AI and data (4) / Operations (7) / Internal tools (4)",
+          "Note: counts match the live site's filter labels. Integration should compute counts from data rather than hard-code them."
+        ],
+        "items": {}
+      },
+      "featured": {
+        "lines": [
+          "Section label: Featured"
+        ],
+        "items": {
+          "Property Intelligence Platform": [
+            "Sector: Real estate / Category: Platforms",
+            "Before: No single source of truth across 171 properties and 17,968 units. Reporting was manual and days out of date.",
+            "Built: A real-time executive dashboard with geospatial mapping, drill-down analytics and automated portfolio KPIs.",
+            "Shift: Weekly manual reporting became a live, self-service dashboard.",
+            "Figures: ~$80K/yr estimated savings / ~40 hrs/week saved",
+            "Stack: Next.js, Supabase, Leaflet, Microsoft Graph API",
+            "CTA: Read the case study -> /projects/property-intelligence-platform"
+          ],
+          "Intelligent Collections Engine": [
+            "Sector: Finance / Category: AI and data",
+            "Before: Rent collections ran on static scripts and one message for everyone. Engagement was low and delinquency was high.",
+            "Built: Two-way SMS and AI voice with GPT-personalized messages, calibrated pacing and campaign tracking.",
+            "Shift: AI now drives first contact. Agents handle only escalated cases.",
+            "Figures: ~$120K/yr estimated savings / 70% fewer manual calls / 98% SMS delivery",
+            "Stack: Next.js, Supabase, Twilio, ElevenLabs, OpenAI GPT-4o",
+            "CTA: Read the case study -> /projects/intelligent-collections-engine"
+          ],
+          "Innovation Hub": [
+            "Sector: Corporate / Category: Platforms",
+            "Before: Ideas arrived by ad-hoc email, with no tracking, scoring or executive visibility.",
+            "Built: A committee-driven platform with a submission wizard, AI triage scoring, lifecycle tracking and oversight dashboards.",
+            "Shift: The suggestion box became a structured pipeline with scoring and tracking.",
+            "Figures: ~$50K/yr estimated savings / 90% faster review",
+            "Stack: Next.js, Supabase, Graph API, Teams, OpenAI",
+            "CTA: none (no case page on live site)"
+          ]
+        }
+      },
+      "index": {
+        "lines": [
+          "Section label: More projects",
+          "Columns: Project / Sector / Before / Figures / Stack",
+          "| Project | Sector | Before | Figures | Stack |",
+          "|---|---|---|---|---|",
+          "| Employee Marketplace | Corporate, internal tools | Staff bought and sold through WhatsApp and bulletin boards, with no oversight or identity checks. | ~$15K/yr, ~10 hrs/week | Next.js, Supabase, Entra ID, Teams, GPT-4o |",
+          "| Executive Portfolio Tracker | Project management, operations | Project updates lived in PowerPoint decks and email threads, with no dashboard for leadership. | ~$30K/yr, ~8 hrs/week | Next.js, Supabase, Graph API, ExcelJS |",
+          "| Performance Review System | HR, operations | Quarterly reviews were Word documents emailed back and forth and impossible to track. | ~$25K/yr, ~15 hrs/cycle | Next.js, Supabase, Entra ID, Graph API, OpenAI |",
+          "| EV Charging Reservations | Infrastructure, internal tools | Two chargers at head office and no booking system, so staff arrived to find them taken. | ~$5K/yr, conflict-free booking | Next.js, Supabase, Graph API |",
+          "| Identity Governance Portal | IT security, operations | Offboarding was manual across Azure AD, Intune and licence pools: slow and risky. | ~$40K/yr, ~20 hrs/week | Next.js, Supabase, Entra ID, Graph API, Intune |",
+          "| Mystery Shopping Evaluator | Real estate, AI and data | Leasing evaluations were on paper with subjective scoring and no benchmarks. | ~$35K/yr, seconds instead of days | Next.js, Supabase, PDF generation |",
+          "| Digital Site Inspections | Real estate, operations | Clipboard inspections and manual photos. Reports took days and varied by inspector. | ~$60K/yr, instant instead of 3 days | Next.js, Supabase, PDF generation, OpenAI Vision |",
+          "| AI Virtual Staging | Real estate, AI and data | Physical staging cost thousands per unit and took weeks to arrange. | ~$90K/yr, seconds instead of 2 weeks | Next.js, Supabase, 4K output pipeline, AI image models |",
+          "| Expense Report Automation | Finance, operations | Paper receipts and manual entry slowed G/L coding and backed up accounting. | ~$45K/yr, ~12 hrs/week | Next.js, Supabase, ExcelJS, OCR Space, GPT-4o |",
+          "| Executive Calendar Concierge | Corporate, AI and data | Executives missed meetings because default Outlook notifications were not enough. | ~$20K/yr, zero missed meetings | Next.js, Supabase, Graph API, Twilio, Google Neural TTS |",
+          "| Snow Operations Log | Property management, operations | Snow removal was tracked on paper, so compliance records were unreliable and hard to audit. | ~$15K/yr, ~6 hrs/week | Next.js, Supabase |",
+          "| Travel Access Manager | IT security, internal tools | Every travel request needed IT to whitelist VPN access by hand: slow and insecure. | ~$10K/yr, zero-touch whitelisting | Next.js, Supabase, Graph API, Entra ID, Twilio |",
+          "| Adobe License Governor | IT, internal tools | Adobe licences were untracked, with no view of allocation, usage or spend. | ~$30K/yr, ~5 hrs/week | Next.js, Supabase, Adobe UMAPI, Graph API |",
+          "| Service Call Dashboard | Fire and security, platforms | Paper service calls and manual purchase orders, with no central tracking or map view. | ~$50K/yr, ~25 hrs/week | React, TypeScript, Supabase, Graph API, Leaflet, jsPDF |",
+          "| Employee Sign-In App | Fire and security, operations | No reliable field attendance tracking, so head office could not see who was on site. | ~$10K/yr, fully automated | HTML5, CSS3, JavaScript, Node.js, Express, Nodemailer, Geolocation API |",
+          "Table caption (screen readers): Figures are estimated annual savings and time saved, as reported for each project."
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Your process could be next.",
+          "Body: We are always taking on new problems. Tell us which part of your operation still runs by hand.",
+          "Primary CTA: Start a conversation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "service-ai-receptionist": {
+    "title": "Service: AI receptionists and phone automation",
+    "route": "/services/ai-receptionist",
+    "meta": {
+      "meta_title": "AI Receptionist & Phone Automation, Toronto & GTA | Zeitwerk",
+      "meta_description": "AI receptionists for Toronto and GTA businesses that answer, qualify and route every call, nights and weekends included. Book a free consultation."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: 01 / AI receptionists",
+          "Headline: Every call answered. Including the 11 p.m. ones.",
+          "Subhead: An AI receptionist picks up immediately, speaks naturally, qualifies the caller, books the appointment and sends anything complex to the right person, with a full transcript in your inbox.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: info@zeitwerk.ca"
+        ],
+        "items": {}
+      },
+      "problem": {
+        "lines": [
+          "Section label: The problem",
+          "Headline: The phone keeps ringing after five.",
+          "Body: A missed call is a lead that dials your competitor next, a tenant whose small problem becomes a large one, or a customer who gives up. When the front desk is stretched, or nobody can staff the phones after hours, the calls still come in. They just go unanswered.",
+          "List label: Sound familiar?",
+          "- Calls go to voicemail at peak hours, and most callers never leave a message.",
+          "- After-hours calls are lost, or they wake whoever is on call for something routine.",
+          "- Reception spends the day answering the same handful of questions.",
+          "- Messages get taken, and the details get lost before anyone follows up.",
+          "- You pay an answering service that reads a script and cannot resolve anything.",
+          "Closer: None of this is a staffing problem. It is a workflow that was never designed to scale, and that is what we fix."
+        ],
+        "items": {}
+      },
+      "how": {
+        "lines": [
+          "Section label: How it works",
+          "Intro: We understand the workflow first, then engineer the automation around it.",
+          "01 Map your call flow: Who calls, why, what they need and what should happen in each case, from booking requests to real emergencies.",
+          "02 Design the voice and rules: How the receptionist speaks, the questions it asks to qualify callers and the exact escalation rules for anything it should not handle alone.",
+          "03 Build and integrate: We connect it to your calendar, CRM or ticketing tools, so calls end as booked appointments and logged requests instead of sticky notes.",
+          "04 Test, launch and tune: We stress-test edge cases before launch, then review real calls and refine the prompts and routing as the business changes."
+        ],
+        "items": {}
+      },
+      "who": {
+        "lines": [
+          "Section label: Built for",
+          "Headline: Businesses where the phone is the front door.",
+          "- Property managers fielding tenant calls at all hours",
+          "- Trades and home-service companies losing jobs to unanswered phones",
+          "- Clinics, law offices and professional practices with an overloaded front desk",
+          "- Any GTA business that cannot afford a missed call"
+        ],
+        "items": {}
+      },
+      "proof": {
+        "lines": [
+          "Label: Case study",
+          "Title: Intelligent Collections Engine",
+          "Line: The same voice technology runs our rent collections system: two-way SMS and AI voice that cut manual calls by 70%. Agents now handle only escalated cases.",
+          "CTA: Read the case study",
+          "Link: /projects/intelligent-collections-engine"
+        ],
+        "items": {}
+      },
+      "faq": {
+        "lines": [
+          "Q: Will callers know they are talking to an AI?",
+          "A: We recommend that it says so. Callers care far more about being helped right away than about who answers. The receptionist handles routine matters completely and hands off cleanly when a person is needed.",
+          "Q: What happens when the AI cannot handle a call?",
+          "A: We design the escalation rules with you before launch. It can transfer to a person, take a structured message, send an urgent alert or book a callback. Every call produces a transcript, so nothing is lost.",
+          "Q: Does this replace my receptionist?",
+          "A: Usually it protects them. The AI takes after-hours calls, overflow and repeat questions, so your team can focus on the conversations that need a person.",
+          "Q: What does an AI receptionist cost in Toronto?",
+          "A: It depends on call volume and the systems we connect to, so we scope each project individually. Start with a free consultation. We will audit your call flow and give you a clear recommendation and quote before you commit."
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "- Invoice follow-up and collections: /services/invoice-follow-up",
+          "- Inbox triage and email automation: /services/inbox-triage",
+          "Link: All services"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Stop sending callers to voicemail.",
+          "Body: Book a free consultation. We will map your call flow and show you what to automate first.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "service-document-intake": {
+    "title": "Service: Document intake and processing",
+    "route": "/services/document-intake",
+    "meta": {
+      "meta_title": "AI Document Intake & Data Extraction, Toronto & GTA | Zeitwerk",
+      "meta_description": "Stop re-keying PDFs, forms and scans. Zeitwerk builds document intake that extracts, checks and writes data straight into your systems."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: 05 / Document intake",
+          "Headline: The end of manual re-keying.",
+          "Subhead: The pipeline reads what arrives (PDFs, scans, photos, forms), extracts the fields that matter, checks them and writes them straight into your systems. People review the exceptions, not the pile.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: info@zeitwerk.ca"
+        ],
+        "items": {}
+      },
+      "problem": {
+        "lines": [
+          "Section label: The problem",
+          "Headline: Someone is still typing numbers off a PDF.",
+          "Body: Invoices, receipts, applications and inspection forms, each one re-keyed by hand. Each one is a chance for a typo, and the minutes add up to someone's entire job.",
+          "List label: The re-keying tax",
+          "- Staff spend hours a week copying data from documents into software.",
+          "- Typos and missed fields surface weeks later as accounting or compliance problems.",
+          "- Documents arrive by email, portal and paper, and pile up in all three.",
+          "- Backlogs grow every time volume spikes or someone is away.",
+          "- The people doing the re-keying were hired to do something more useful.",
+          "Closer: None of this is a staffing problem. It is a workflow that was never designed to scale, and that is what we fix."
+        ],
+        "items": {}
+      },
+      "how": {
+        "lines": [
+          "Section label: How it works",
+          "01 Inventory your documents: What arrives, in what formats, from where, and which fields need to end up in which system.",
+          "02 Build the extraction pipeline: AI extraction reads each document, including scans and phone photos, and validation rules catch anything that looks wrong.",
+          "03 Connect your systems: Extracted data goes straight into your accounting platform, database or line-of-business software, with no copy and paste in between.",
+          "04 Route the exceptions: Documents the system cannot read with confidence go to a review queue with the uncertain fields highlighted, so people handle judgment instead of volume."
+        ],
+        "items": {}
+      },
+      "who": {
+        "lines": [
+          "Section label: Built for",
+          "Headline: Paper-heavy operations.",
+          "- Finance teams processing invoices, receipts and expense claims",
+          "- Property and field operations handling inspections and work orders",
+          "- Offices running application, onboarding or intake forms",
+          "- Any GTA business where documents arrive faster than they get processed"
+        ],
+        "items": {}
+      },
+      "faq": {
+        "lines": [
+          "Q: What kinds of documents can it handle?",
+          "A: Invoices, receipts, forms, applications, inspection reports and most other business documents, as native PDFs, scans or phone photos. If a person can read it, it is usually a candidate.",
+          "Q: How accurate is the extraction?",
+          "A: Very accurate on well-structured documents, and we do not rely on trust alone. Validation rules and confidence thresholds send anything questionable to a person. In one project listed on our projects page, receipt extraction reached 95%+ accuracy with automatic G/L coding.",
+          "Q: Where does the extracted data go?",
+          "A: Wherever it needs to: accounting software, ERP, a database or a spreadsheet. We build the integration so data lands in the system your team already uses.",
+          "Q: What happens to the original documents?",
+          "A: They are filed automatically, named consistently and stored where you want them, so the source is always one click from the record it produced."
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "- Quote and estimate automation: /services/quote-automation",
+          "- Inbox triage and email automation: /services/inbox-triage",
+          "- Reporting and dashboards: /services/reporting-dashboards",
+          "Link: All services"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Let the documents type themselves.",
+          "Body: Book a free consultation. We will inventory what arrives and show you what to automate first.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "service-inbox-triage": {
+    "title": "Service: Inbox triage and email automation",
+    "route": "/services/inbox-triage",
+    "meta": {
+      "meta_title": "Inbox Triage & Email Automation, Toronto & GTA | Zeitwerk",
+      "meta_description": "AI inbox triage that classifies, routes and drafts replies for high-volume shared inboxes, so Toronto and GTA teams handle only what needs them."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: 04 / Inbox triage",
+          "Headline: An inbox that sorts itself.",
+          "Subhead: Every incoming message is classified, prioritized, routed to its owner and drafted for review. The inbox turns into a queue of decisions instead of a wall of unread mail.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: info@zeitwerk.ca"
+        ],
+        "items": {}
+      },
+      "problem": {
+        "lines": [
+          "Section label: The problem",
+          "Headline: Shared inboxes fail quietly.",
+          "Body: A few hundred messages a day and nothing looks broken. The urgent request is just buried under newsletters, the customer has followed up twice, and your best people spend the first hour of every morning deciding what to read.",
+          "List label: How high-volume inboxes fail",
+          "- Urgent messages sit unseen behind routine ones for hours.",
+          "- Nobody is sure who owns a message, so everyone answers or no one does.",
+          "- Your most experienced people spend mornings sorting instead of solving.",
+          "- The same questions get hand-typed answers dozens of times a week.",
+          "- Follow-ups slip because nothing tracks what is still waiting on a reply.",
+          "Closer: None of this is a staffing problem. It is a workflow that was never designed to scale, and that is what we fix."
+        ],
+        "items": {}
+      },
+      "how": {
+        "lines": [
+          "Section label: How it works",
+          "01 Learn your mail: We study what you actually receive and define the categories, priorities and owners that match how your team works.",
+          "02 Classify and route: Each message is categorized, prioritized and assigned as it arrives. Urgent items are flagged the moment they land.",
+          "03 Draft the replies: For routine mail the system drafts a response in your voice for a person to approve, edit or send. Fully automatic replies run only where you switch them on.",
+          "04 Track and improve: Nothing closes until it is handled. We review the misses and keep tuning, so accuracy improves with use."
+        ],
+        "items": {}
+      },
+      "who": {
+        "lines": [
+          "Section label: Built for",
+          "Headline: Inboxes that never stop.",
+          "- Property management offices buried in tenant email",
+          "- Customer service desks without a full ticketing system",
+          "- Operations teams running the business from a shared mailbox",
+          "- Executives who need a short brief instead of a thousand unread messages"
+        ],
+        "items": {}
+      },
+      "faq": {
+        "lines": [
+          "Q: What if it files something incorrectly?",
+          "A: We set confidence thresholds, so messages the system is unsure about go to a person instead of being guessed at. Misfiled items are reviewed and fed back in, and the system gets sharper the longer it runs.",
+          "Q: Will it send email without us knowing?",
+          "A: Only if you switch that on for specific, well-defined message types. The default is drafts for review: a person approves everything until you are comfortable expanding it.",
+          "Q: Does it work with Outlook and Gmail?",
+          "A: Yes. We build on Microsoft 365 and Google Workspace, using your existing mailboxes and permissions instead of moving you to a new tool.",
+          "Q: What about confidentiality?",
+          "A: Before anything goes live, we walk you through what the system reads, where the data flows and what is stored. We design within your existing email platform and access policies."
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "- Document intake and processing: /services/document-intake",
+          "- AI receptionists and phone automation: /services/ai-receptionist",
+          "- Quote and estimate automation: /services/quote-automation",
+          "Link: All services"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Give your mornings back.",
+          "Body: Book a free consultation. We will look at what lands in your inbox and show you what to automate first.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "service-invoice-follow-up": {
+    "title": "Service: Invoice follow-up and collections",
+    "route": "/services/invoice-follow-up",
+    "meta": {
+      "meta_title": "Invoice Follow-Up & Collections, Toronto & GTA | Zeitwerk",
+      "meta_description": "Polite, persistent, automated follow-up on unpaid invoices by email, SMS and AI voice. Collections automation for Toronto and GTA businesses."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: 03 / Invoice follow-up",
+          "Headline: Get paid without chasing.",
+          "Subhead: Personalized reminders go out by email, SMS and AI voice, paced and escalated on purpose, with every touch tracked. Your team steps in only when a case needs a person.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: info@zeitwerk.ca"
+        ],
+        "items": {}
+      },
+      "problem": {
+        "lines": [
+          "Section label: The problem",
+          "Headline: Unpaid usually means busy, not unwilling.",
+          "Body: Every week an invoice sits unpaid, cash flow tightens and the follow-up call gets more awkward. So it gets postponed, and the problem compounds.",
+          "List label: The cost of not chasing",
+          "- Receivables age because follow-up depends on someone remembering.",
+          "- Every customer gets the same generic reminder, whatever their history.",
+          "- Staff dread collection calls, so they happen late or not at all.",
+          "- Nobody can say which invoices were chased, when, or with what result.",
+          "- Cash flow suffers even though the work is done and the customer is willing to pay.",
+          "Closer: None of this is a staffing problem. It is a workflow that was never designed to scale, and that is what we fix."
+        ],
+        "items": {}
+      },
+      "how": {
+        "lines": [
+          "Section label: How it works",
+          "01 Connect your receivables: We connect to your invoicing or accounting system, so the automation always knows what is outstanding, overdue or promised.",
+          "02 Design the cadence: Together we set tone and pacing: a friendly nudge, a firm reminder, then escalation. Different customers and amounts can follow different paths.",
+          "03 Automate across channels: Reminders go out by email, two-way SMS or a natural AI voice call, written for the customer and the invoice instead of one blast for everyone.",
+          "04 Escalate only what matters: Disputes, hardship cases and silence past your threshold go to your team with full context. The rest resolves without them."
+        ],
+        "items": {}
+      },
+      "who": {
+        "lines": [
+          "Section label: Built for",
+          "Headline: Businesses with real receivables.",
+          "- Property managers and landlords collecting rent at scale",
+          "- Trades and contractors whose net-30 invoices drift to net-90",
+          "- Agencies and professional services chasing retainers",
+          "- Any GTA business where receivables outrun the time to collect them"
+        ],
+        "items": {}
+      },
+      "proof": {
+        "lines": [
+          "Label: Case study",
+          "Title: Intelligent Collections Engine",
+          "Line: Two-way SMS and AI voice with GPT-personalized messages per resident. 98% SMS delivery and 70% fewer manual calls.",
+          "CTA: Read the case study",
+          "Link: /projects/intelligent-collections-engine"
+        ],
+        "items": {}
+      },
+      "faq": {
+        "lines": [
+          "Q: Won't automated collections annoy my customers?",
+          "A: Done crudely, yes. That is why we set tone and pacing with you before anything goes out. A polite, well-spaced, personal reminder is far less irritating than a tense phone call after ninety days of silence, and customers respond to it.",
+          "Q: Which channels can it use?",
+          "A: Email, two-way SMS and natural AI voice calls, in whatever mix suits your customers. Messages adapt to the customer and the invoice instead of following one script.",
+          "Q: When does a person get involved?",
+          "A: Whenever you decide: disputes, promised payments that lapse, sensitive accounts or balances past a threshold you set. Your team gets the full history, so the conversation starts informed.",
+          "Q: Does it work with our accounting software?",
+          "A: We connect to the invoicing and accounting tools you already run, so balances stay in sync and a payment stops the reminders automatically."
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "- AI receptionists and phone automation: /services/ai-receptionist",
+          "- Quote and estimate automation: /services/quote-automation",
+          "- Reporting and dashboards: /services/reporting-dashboards",
+          "Link: All services"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Stop chasing. Start collecting.",
+          "Body: Book a free consultation. We will audit your receivables workflow and show you what to automate first.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "service-quote-automation": {
+    "title": "Service: Quote and estimate automation",
+    "route": "/services/quote-automation",
+    "meta": {
+      "meta_title": "Quote & Estimate Automation for Toronto & GTA | Zeitwerk",
+      "meta_description": "Turn inbound requests into accurate, branded quotes in minutes instead of days. Zeitwerk builds quoting automation for Toronto and GTA businesses."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: 02 / Quote automation",
+          "Headline: Quotes out in minutes, not days.",
+          "Subhead: The system reads each request, applies your real pricing rules and drafts a branded quote ready for one-click review. Routine work can go out on its own. Anything unusual waits for a person.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: info@zeitwerk.ca"
+        ],
+        "items": {}
+      },
+      "problem": {
+        "lines": [
+          "Section label: The problem",
+          "Headline: The first good quote usually wins.",
+          "Body: If a request sits in your inbox for three days while a competitor replies within the hour, the job is gone before you open the pricing spreadsheet.",
+          "List label: Where quoting breaks down",
+          "- Pricing lives in one person's head or in a spreadsheet nobody else trusts.",
+          "- Requests arrive by email, phone and web form, and some fall through.",
+          "- Two staff quote the same job two different ways.",
+          "- Sent quotes get followed up when someone remembers, so warm leads expire.",
+          "- Busy season creates a quoting backlog exactly when you can least afford one.",
+          "Closer: None of this is a staffing problem. It is a workflow that was never designed to scale, and that is what we fix."
+        ],
+        "items": {}
+      },
+      "how": {
+        "lines": [
+          "Section label: How it works",
+          "01 Capture your pricing logic: Rates, materials, margins, minimums and the exceptions. We write down how you actually price work and turn it into explicit rules.",
+          "02 Build the drafting engine: The system reads each request from email, web form or call notes, pulls out the details that matter, applies your rules and assembles a complete quote.",
+          "03 Add review and approval: You set the guardrails. Routine quotes can send automatically or wait for one-click approval, and anything unusual is clearly flagged.",
+          "04 Automate the follow-up: Sent quotes get polite, scheduled follow-ups until they are accepted, declined or expired."
+        ],
+        "items": {}
+      },
+      "who": {
+        "lines": [
+          "Section label: Built for",
+          "Headline: Teams that compete on response time.",
+          "- Trades, contractors and home-service companies",
+          "- Wholesale, distribution and equipment suppliers",
+          "- Professional services pricing scoped engagements",
+          "- Any GTA business that loses work to slower replies"
+        ],
+        "items": {}
+      },
+      "faq": {
+        "lines": [
+          "Q: How does it keep quotes accurate?",
+          "A: It only applies pricing rules you have approved. Anything outside normal parameters, such as unusual scope, missing information or non-standard pricing, goes to a person for review instead of being sent blind.",
+          "Q: Our jobs are custom. Can this still work?",
+          "A: Yes, and that is the usual case. The system drafts the structured majority of each quote and flags the judgment calls for you, which turns a process of days into minutes of review.",
+          "Q: Does it connect to our CRM or accounting software?",
+          "A: We build against the CRM, accounting and email tools you already use, so accepted quotes flow into your existing pipeline instead of another disconnected app.",
+          "Q: What does quoting automation cost?",
+          "A: It depends on how complex your pricing is and what we connect to. We scope every project individually. Book a free consultation and we will map your quoting workflow and give you a clear recommendation first."
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "- Inbox triage and email automation: /services/inbox-triage",
+          "- Document intake and processing: /services/document-intake",
+          "- Invoice follow-up and collections: /services/invoice-follow-up",
+          "Link: All services"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Answer first. Win more of the work.",
+          "Body: Book a free consultation. We will map how you quote today and show you what to automate first.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "service-reporting-dashboards": {
+    "title": "Service: Reporting and dashboards",
+    "route": "/services/reporting-dashboards",
+    "meta": {
+      "meta_title": "Automated Reporting & Live Dashboards, Toronto & GTA | Zeitwerk",
+      "meta_description": "Replace hours of spreadsheet assembly with live dashboards and scheduled reports. Zeitwerk builds reporting automation for Toronto and GTA businesses."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: 06 / Reporting and dashboards",
+          "Headline: Reports that build themselves.",
+          "Subhead: We pull data from the tools you already run, keep it live in a dashboard your team will use and send scheduled reports on time. Same numbers, no assembly.",
+          "Primary CTA: Book a free consultation",
+          "Secondary CTA: info@zeitwerk.ca"
+        ],
+        "items": {}
+      },
+      "problem": {
+        "lines": [
+          "Section label: The problem",
+          "Headline: The report is out of date before the meeting.",
+          "Body: Someone opens six spreadsheets, exports from four systems and spends Friday afternoon building a report that is stale by Monday. Each copy-paste error makes people trust the numbers a little less.",
+          "List label: Signs your reporting is running you",
+          "- Reports take hours of manual export, copy and paste every week or month.",
+          "- By the time leadership sees the numbers, they are days old.",
+          "- Each department keeps its own spreadsheet and its own version of the truth.",
+          "- One person knows how the report is built, and it stops when they are away.",
+          "- Errors surface in meetings, and the discussion turns to the data instead of the decision.",
+          "Closer: None of this is a staffing problem. It is a workflow that was never designed to scale, and that is what we fix."
+        ],
+        "items": {}
+      },
+      "how": {
+        "lines": [
+          "Section label: How it works",
+          "01 Find the real sources: We trace every number in your current reports back to its source system and mark where manual steps and errors creep in.",
+          "02 Automate the pipeline: Data flows from your CRM, accounting, operations and spreadsheet tools into one consistent model that stays current.",
+          "03 Build dashboards people use: Drill-down for the people who dig, and clean executive views for the people who decide.",
+          "04 Deliver on schedule: Weekly and monthly reports generate and send themselves, to inboxes or as PDFs, without anyone assembling anything."
+        ],
+        "items": {}
+      },
+      "who": {
+        "lines": [
+          "Section label: Built for",
+          "Headline: Decision-makers tired of stale numbers.",
+          "- Executives running portfolios, branches or several entities",
+          "- Operations leaders reporting KPIs every week",
+          "- Finance teams building month-end packs by hand",
+          "- Any GTA business making decisions on days-old data"
+        ],
+        "items": {}
+      },
+      "proof": {
+        "lines": [
+          "Label: Case study",
+          "Title: Property Intelligence Platform",
+          "Line: A real-time executive dashboard across 171 properties and 17,968 units that replaced manual portfolio reporting and saves roughly 40 hours a week.",
+          "CTA: Read the case study",
+          "Link: /projects/property-intelligence-platform"
+        ],
+        "items": {}
+      },
+      "faq": {
+        "lines": [
+          "Q: What data sources can you connect?",
+          "A: Most modern business systems: CRMs, accounting platforms, operations software, databases, and the spreadsheets and email exports you rely on today. If the data exists somewhere, we can usually automate its path into the report.",
+          "Q: Do we need a data warehouse?",
+          "A: Not necessarily. We size the architecture to the problem, and many businesses get live, trustworthy reporting without heavy infrastructure. If your volume calls for more, we will tell you and design for it.",
+          "Q: Can we still get reports by email or PDF?",
+          "A: Yes. The same pipeline can feed a live dashboard and email a formatted PDF pack on whatever schedule you set.",
+          "Q: What does reporting automation cost?",
+          "A: It depends on how many sources we connect and how complex the reporting is. Book a free consultation and we will audit your current reporting and show you what to automate first."
+        ],
+        "items": {}
+      },
+      "related": {
+        "lines": [
+          "- Document intake and processing: /services/document-intake",
+          "- Invoice follow-up and collections: /services/invoice-follow-up",
+          "Link: All services"
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Get your Friday afternoons back.",
+          "Body: Book a free consultation. We will trace your current reports and show you what to automate first.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "services": {
+    "title": "Services hub",
+    "route": "/services",
+    "meta": {
+      "meta_title": "Automation & AI Services for Toronto & the GTA | Zeitwerk",
+      "meta_description": "AI receptionists, quote automation, invoice follow-up, inbox triage, document intake and reporting, built for Toronto and GTA businesses. Book a consultation."
+    },
+    "notes": [],
+    "sections": {
+      "hero": {
+        "lines": [
+          "Eyebrow: Services",
+          "Headline: Automation for the work that keeps your team busy.",
+          "Subhead: We design, build and maintain the systems behind business operations across Toronto and the GTA. Six of them come up most often.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      },
+      "intro": {
+        "lines": [
+          "Body: Most engagements combine several of these. A collections system usually needs the inbox. Quoting usually needs document intake. If your problem does not fit neatly into one, tell us about the problem and we will work out the system."
+        ],
+        "items": {}
+      },
+      "index": {
+        "lines": [
+          "Each item: number, name, one-line promise, three problems it removes, link."
+        ],
+        "items": {
+          "01 AI receptionists and phone automation": [
+            "Promise: Every call answered, qualified and routed, nights and weekends included.",
+            "Removes: Calls lost to voicemail / after-hours requests that wait until morning / the same five questions, all day",
+            "Link: /services/ai-receptionist"
+          ],
+          "02 Quote and estimate automation": [
+            "Promise: Inbound requests become accurate, branded quotes in minutes instead of days.",
+            "Removes: Pricing that lives in one person's head / two staff quoting the same job differently / quotes nobody follows up",
+            "Link: /services/quote-automation"
+          ],
+          "03 Invoice follow-up and collections": [
+            "Promise: Polite, persistent follow-up on unpaid invoices, across email, SMS and voice.",
+            "Removes: Receivables that age quietly / generic reminders / collection calls that never get made",
+            "Link: /services/invoice-follow-up"
+          ],
+          "04 Inbox triage and email automation": [
+            "Promise: Every message classified, routed and drafted, so the inbox becomes a queue of decisions.",
+            "Removes: Urgent mail buried under routine / messages nobody owns / hand-typed answers to the same questions",
+            "Link: /services/inbox-triage"
+          ],
+          "05 Document intake and processing": [
+            "Promise: Data from PDFs, scans and forms goes straight into your systems, checked and filed.",
+            "Removes: Manual re-keying / typos found weeks later / backlogs every time volume spikes",
+            "Link: /services/document-intake"
+          ],
+          "06 Reporting and dashboards": [
+            "Promise: Live dashboards and scheduled reports in place of hours of spreadsheet assembly.",
+            "Removes: Friday afternoons spent building reports / numbers that are days old / five versions of the truth",
+            "Link: /services/reporting-dashboards",
+            "Item CTA: Learn more"
+          ]
+        }
+      },
+      "proof-strip": {
+        "lines": [
+          "Body: See what this looks like in production.",
+          "Link: Projects and case studies"
+        ],
+        "items": {}
+      },
+      "area": {
+        "lines": [
+          "Body: Serving Toronto, Vaughan, Mississauga, Brampton, Markham, Richmond Hill and the rest of the GTA, on site or remotely."
+        ],
+        "items": {}
+      },
+      "cta": {
+        "lines": [
+          "Headline: Not sure where to start?",
+          "Body: Book a free consultation. We will audit your workflows and show you what to automate first.",
+          "Primary CTA: Book a free consultation"
+        ],
+        "items": {}
+      }
+    }
+  },
+  "microcopy": {
+    "_meta": {
+      "lane": "04-copywriting",
+      "source": "Reworded from zeitwerk.ca (curl, 2026-11-15). Canadian spelling, no em dashes.",
+      "contact_email": "info@zeitwerk.ca",
+      "legal_email": "info@zeitwerk.ca",
+      "address": "7810 Keele St, Vaughan, ON L4K 4G7"
+    },
+    "brand": {
+      "name": "Zeitwerk",
+      "pronunciation": "tsait-verk",
+      "meaning": "German for clockwork",
+      "tagline": "Automation, engineered like clockwork.",
+      "descriptor": "Automation and AI consulting, Vaughan, Ontario",
+      "logo_alt": "Zeitwerk home",
+      "pronounce_button_label": "Hear how Zeitwerk is pronounced"
+    },
+    "nav": {
+      "primary": [
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "cta": {
+        "label": "Book a consultation",
+        "href": "/contact"
+      },
+      "services_menu_label": "Services",
+      "services_menu": [
+        {
+          "label": "AI receptionists",
+          "href": "/services/ai-receptionist"
+        },
+        {
+          "label": "Quote automation",
+          "href": "/services/quote-automation"
+        },
+        {
+          "label": "Invoice follow-up",
+          "href": "/services/invoice-follow-up"
+        },
+        {
+          "label": "Inbox triage",
+          "href": "/services/inbox-triage"
+        },
+        {
+          "label": "Document intake",
+          "href": "/services/document-intake"
+        },
+        {
+          "label": "Reporting and dashboards",
+          "href": "/services/reporting-dashboards"
+        }
+      ],
+      "menu_open": "Open menu",
+      "menu_close": "Close menu",
+      "skip_link": "Skip to content",
+      "breadcrumb_home": "Home",
+      "breadcrumb_label": "Breadcrumb"
+    },
+    "buttons": {
+      "book": "Book a free consultation",
+      "book_short": "Book a consultation",
+      "start_conversation": "Start a conversation",
+      "learn_more": "Learn more",
+      "all_services": "All services",
+      "see_work": "See the work",
+      "all_projects": "All projects",
+      "read_case": "Read the case study",
+      "next_case": "Next case study",
+      "how_we_work": "How we work",
+      "back_home": "Back to home",
+      "send": "Send",
+      "sending": "Sending",
+      "email_us": "Email us",
+      "copy_email": "Copy email",
+      "copied": "Copied",
+      "show_answer": "Show answer",
+      "hide_answer": "Hide answer",
+      "scroll": "Scroll"
+    },
+    "form": {
+      "title": "Book a free consultation",
+      "intro": "A few lines is enough. We reply by email.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name",
+          "autocomplete": "name"
+        },
+        "email": {
+          "label": "Work email",
+          "placeholder": "you@company.ca",
+          "autocomplete": "email"
+        },
+        "company": {
+          "label": "Company",
+          "placeholder": "Company name",
+          "optional": true,
+          "autocomplete": "organization"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "Optional",
+          "optional": true,
+          "autocomplete": "tel"
+        },
+        "service": {
+          "label": "What do you want to fix?",
+          "placeholder": "Choose one",
+          "options": [
+            "Calls and phone coverage",
+            "Quoting and estimates",
+            "Unpaid invoices",
+            "A busy shared inbox",
+            "Documents and data entry",
+            "Reporting and dashboards",
+            "Not sure yet"
+          ]
+        },
+        "message": {
+          "label": "What runs by hand today?",
+          "placeholder": "For example: we re-key supplier invoices into our accounting system every day.",
+          "help": "Two or three sentences is plenty."
+        },
+        "consent": {
+          "label": "I agree that Zeitwerk may use these details to reply to my enquiry, as described in the Privacy Policy.",
+          "link_text": "Privacy Policy",
+          "link_href": "/privacy"
+        }
+      },
+      "optional_tag": "Optional",
+      "required_note": "All fields are required unless marked optional.",
+      "submit": "Send",
+      "submitting": "Sending",
+      "success_title": "Thanks. Your note is in.",
+      "success_body": "We will reply by email to set up a time. If it is urgent, write to info@zeitwerk.ca.",
+      "fallback_note": "Preview build: the form is not connected. Email info@zeitwerk.ca instead."
+    },
+    "errors": {
+      "required": "Please fill in this field.",
+      "name_required": "Please enter your name.",
+      "email_required": "Please enter your email.",
+      "email_invalid": "That email does not look right. Check it and try again.",
+      "message_required": "Tell us a little about the work you want to automate.",
+      "message_too_short": "A bit more detail helps. One or two sentences is enough.",
+      "consent_required": "Please confirm you agree so we can reply.",
+      "submit_failed": "Something went wrong and your note was not sent. Try again, or email info@zeitwerk.ca.",
+      "offline": "You seem to be offline. Check your connection and try again.",
+      "rate_limited": "Too many attempts. Wait a minute, then try again.",
+      "not_found_title": "This part is not in the mechanism.",
+      "not_found_body": "The page you asked for does not exist or has moved. Everything else is still running.",
+      "generic_title": "Something stopped.",
+      "generic_body": "This page failed to load. Refresh to try again."
+    },
+    "labels": {
+      "case_study": "Case study",
+      "featured": "Featured",
+      "the_challenge": "The challenge",
+      "what_we_built": "What we built",
+      "the_result": "The result",
+      "technology": "Technology",
+      "before": "Before",
+      "built": "What we built",
+      "shift": "What changed",
+      "estimated_savings": "Estimated savings",
+      "time_saved": "Time saved",
+      "anonymized": "Client details anonymized. References available on request.",
+      "faq": "Questions",
+      "related": "Related services",
+      "how_it_works": "How it works",
+      "built_for": "Built for",
+      "filter_label": "Filter projects",
+      "filter_all": "All",
+      "filters": [
+        "Platforms",
+        "AI and data",
+        "Operations",
+        "Internal tools"
+      ],
+      "results_count": "{count} projects"
+    },
+    "footer": {
+      "statement": "Automation and AI consulting, Vaughan, Ontario.",
+      "area": "Serving Toronto, Vaughan, Mississauga, Brampton, Markham, Richmond Hill and the rest of the GTA.",
+      "columns": {
+        "services": "Services",
+        "company": "Company",
+        "contact": "Contact"
+      },
+      "company_links": [
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "legal_links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "/terms"
+        }
+      ],
+      "copyright": "© {year} Zeitwerk",
+      "back_to_top": "Back to top"
+    },
+    "a11y": {
+      "external_link": "opens in a new tab",
+      "reduced_motion_note": "Animations are reduced because your device asks for less motion.",
+      "hero_visual_alt": "Animated clockwork mechanism in Zeitwerk red and ink",
+      "map_alt": "Map of the Greater Toronto Area with Vaughan marked",
+      "loading": "Loading"
+    }
+  }
+}

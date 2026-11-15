@@ -1,0 +1,185 @@
+/* Zeitwerk design tokens - GENERATED from tokens.json by scripts/build_tokens.py. Do not hand-edit. */
+:root {
+  --zw-red: #E2000F;
+  --zw-red-press: #B8000C;
+  --zw-red-on-ink: #FF2A36;
+  --zw-ink: #171717;
+  --zw-ink-2: #262626;
+  --zw-graphite: #525252;
+  --zw-steel: #737373;
+  --zw-connector: #CCCCCC;
+  --zw-line: #E5E5E5;
+  --zw-line-on-ink: #333333;
+  --zw-paper: #FAFAFA;
+  --zw-white: #FFFFFF;
+  --zw-font-display: 'General Sans', 'General Sans Fallback', 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --zw-font-text: 'Inter', 'Inter Fallback', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --zw-font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --zw-text-display-xl: clamp(3.25rem, 1.6rem + 6.8vw, 8.5rem);
+  --zw-leading-display-xl: 0.92;
+  --zw-tracking-display-xl: -0.04em;
+  --zw-weight-display-xl: 600;
+  --zw-text-display-l: clamp(2.6rem, 1.5rem + 4.6vw, 6rem);
+  --zw-leading-display-l: 0.95;
+  --zw-tracking-display-l: -0.035em;
+  --zw-weight-display-l: 600;
+  --zw-text-h1: clamp(2.25rem, 1.45rem + 3.3vw, 4.5rem);
+  --zw-leading-h1: 1.0;
+  --zw-tracking-h1: -0.03em;
+  --zw-weight-h1: 600;
+  --zw-text-h2: clamp(1.85rem, 1.3rem + 2.25vw, 3.25rem);
+  --zw-leading-h2: 1.05;
+  --zw-tracking-h2: -0.025em;
+  --zw-weight-h2: 600;
+  --zw-text-h3: clamp(1.4rem, 1.15rem + 1.05vw, 2.1rem);
+  --zw-leading-h3: 1.12;
+  --zw-tracking-h3: -0.02em;
+  --zw-weight-h3: 500;
+  --zw-text-h4: clamp(1.15rem, 1.05rem + 0.45vw, 1.45rem);
+  --zw-leading-h4: 1.25;
+  --zw-tracking-h4: -0.01em;
+  --zw-weight-h4: 500;
+  --zw-text-lead: clamp(1.125rem, 1.02rem + 0.45vw, 1.4rem);
+  --zw-leading-lead: 1.45;
+  --zw-tracking-lead: -0.01em;
+  --zw-weight-lead: 400;
+  --zw-text-body: clamp(1rem, 0.97rem + 0.12vw, 1.0625rem);
+  --zw-leading-body: 1.6;
+  --zw-tracking-body: -0.005em;
+  --zw-weight-body: 400;
+  --zw-text-small: 0.875rem;
+  --zw-leading-small: 1.5;
+  --zw-tracking-small: 0;
+  --zw-weight-small: 400;
+  --zw-text-label: 0.75rem;
+  --zw-leading-label: 1.2;
+  --zw-tracking-label: 0.14em;
+  --zw-weight-label: 500;
+  --zw-text-numeral: clamp(3rem, 2rem + 4vw, 6.5rem);
+  --zw-leading-numeral: 1.0;
+  --zw-tracking-numeral: -0.04em;
+  --zw-weight-numeral: 500;
+  --zw-space-0: 0;
+  --zw-space-px: 1px;
+  --zw-space-1: 0.25rem;
+  --zw-space-2: 0.5rem;
+  --zw-space-3: 0.75rem;
+  --zw-space-4: 1rem;
+  --zw-space-5: 1.5rem;
+  --zw-space-6: 2rem;
+  --zw-space-7: 3rem;
+  --zw-space-8: 4rem;
+  --zw-space-9: 6rem;
+  --zw-space-10: 8rem;
+  --zw-space-11: 12rem;
+  --zw-space-gutter: clamp(1.25rem, 0.8rem + 1.9vw, 2.5rem);
+  --zw-space-section: clamp(5rem, 3rem + 8vw, 11rem);
+  --zw-space-section-tight: clamp(3.5rem, 2.4rem + 4.5vw, 7rem);
+  --zw-max: 1440px;
+  --zw-measure: 64ch;
+  --zw-columns: 12;
+  --zw-header-height: clamp(64px, 56px + 1.2vw, 80px);
+  --zw-radius-none: 0;
+  --zw-radius-hair: 2px;
+  --zw-radius-focus: 2px;
+  --zw-radius-icon-tile: 18.75%;
+  --zw-border-hairline: 1px;
+  --zw-border-rule: 1px;
+  --zw-border-heavy: 2px;
+  --zw-border-accent-bar: 4px;
+  --zw-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --zw-ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --zw-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --zw-ease-escapement: cubic-bezier(0.7, 0, 0.2, 1);
+  --zw-ease-linear: linear;
+  --zw-dur-instant: 90ms;
+  --zw-dur-fast: 180ms;
+  --zw-dur-base: 320ms;
+  --zw-dur-slow: 600ms;
+  --zw-dur-reveal: 900ms;
+  --zw-dur-hero: 1400ms;
+  --zw-dur-stagger: 70ms;
+  --zw-dur-tick: 1000ms;
+  --zw-reveal-distance: 0.6em;
+  --zw-z-base: 0;
+  --zw-z-raised: 10;
+  --zw-z-header: 50;
+  --zw-z-overlay: 80;
+  --zw-z-modal: 90;
+  --zw-z-toast: 100;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --zw-dur-base: 180ms;
+    --zw-dur-slow: 180ms;
+    --zw-dur-reveal: 180ms;
+    --zw-dur-hero: 180ms;
+    --zw-dur-stagger: 180ms;
+    --zw-dur-tick: 180ms;
+    --zw-dur-stagger: 0ms;
+    --zw-reveal-distance: 0;
+  }
+}
+
+/* Tailwind 4: utilities like bg-zw-red, text-ink, font-display, text-display-xl, ease-out-expo, rounded-none */
+@theme inline {
+  --color-zw-red: var(--zw-red);
+  --color-zw-red-press: var(--zw-red-press);
+  --color-ink: var(--zw-ink);
+  --color-ink-2: var(--zw-ink-2);
+  --color-graphite: var(--zw-graphite);
+  --color-steel: var(--zw-steel);
+  --color-line: var(--zw-line);
+  --color-line-ink: var(--zw-line-on-ink);
+  --color-paper: var(--zw-paper);
+  --font-display: var(--zw-font-display);
+  --font-sans: var(--zw-font-text);
+  --font-mono: var(--zw-font-mono);
+  --text-display-xl: clamp(3.25rem, 1.6rem + 6.8vw, 8.5rem);
+  --text-display-xl--line-height: 0.92;
+  --text-display-xl--letter-spacing: -0.04em;
+  --text-display-l: clamp(2.6rem, 1.5rem + 4.6vw, 6rem);
+  --text-display-l--line-height: 0.95;
+  --text-display-l--letter-spacing: -0.035em;
+  --text-h1: clamp(2.25rem, 1.45rem + 3.3vw, 4.5rem);
+  --text-h1--line-height: 1.0;
+  --text-h1--letter-spacing: -0.03em;
+  --text-h2: clamp(1.85rem, 1.3rem + 2.25vw, 3.25rem);
+  --text-h2--line-height: 1.05;
+  --text-h2--letter-spacing: -0.025em;
+  --text-h3: clamp(1.4rem, 1.15rem + 1.05vw, 2.1rem);
+  --text-h3--line-height: 1.12;
+  --text-h3--letter-spacing: -0.02em;
+  --text-h4: clamp(1.15rem, 1.05rem + 0.45vw, 1.45rem);
+  --text-h4--line-height: 1.25;
+  --text-h4--letter-spacing: -0.01em;
+  --text-lead: clamp(1.125rem, 1.02rem + 0.45vw, 1.4rem);
+  --text-lead--line-height: 1.45;
+  --text-lead--letter-spacing: -0.01em;
+  --text-body: clamp(1rem, 0.97rem + 0.12vw, 1.0625rem);
+  --text-body--line-height: 1.6;
+  --text-body--letter-spacing: -0.005em;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.5;
+  --text-small--letter-spacing: 0;
+  --text-label: 0.75rem;
+  --text-label--line-height: 1.2;
+  --text-label--letter-spacing: 0.14em;
+  --text-numeral: clamp(3rem, 2rem + 4vw, 6.5rem);
+  --text-numeral--line-height: 1.0;
+  --text-numeral--letter-spacing: -0.04em;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-escapement: cubic-bezier(0.7, 0, 0.2, 1);
+  --radius-hair: 2px;
+}
+
+/* Base (optional) */
+html { background: var(--zw-paper); color: var(--zw-ink); font-family: var(--zw-font-text); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-feature-settings: 'cv11', 'ss01'; }
+::selection { background: var(--zw-red); color: var(--zw-white); }
+:focus-visible { outline: 2px solid var(--zw-red); outline-offset: 3px; border-radius: var(--zw-radius-focus); }
+.zw-label { font: var(--zw-weight-label) var(--zw-text-label)/var(--zw-leading-label) var(--zw-font-text); letter-spacing: var(--zw-tracking-label); text-transform: uppercase; }
+.zw-num { font-variant-numeric: tabular-nums; }
+.zw-rule { border: 0; border-top: var(--zw-border-hairline) solid var(--zw-line); margin: 0; }

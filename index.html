@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <!-- PREVIEW: never index. Remove only at real launch with NK's approval. -->
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="theme-color" content="#171717" />
+    <!--SEO:START-->
+    <title>Business Automation &amp; AI Consulting, Toronto &amp; GTA | Zeitwerk</title>
+    <!--SEO:END-->
+    <meta property="og:image" content="https://itrapidsupport.github.io/zeitwerk-preview/og/og-default.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="%BASE_URL%favicon.ico" sizes="48x48" />
+    <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" />
+    <link rel="mask-icon" href="%BASE_URL%safari-pinned-tab.svg" color="#E2000F" />
+    <link rel="manifest" href="%BASE_URL%site.webmanifest" />
+    <link rel="preload" href="%BASE_URL%fonts/GeneralSans-Semibold-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="%BASE_URL%fonts/Inter-Regular-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Motion kit (lane 07): JS-on flag. Content is visible by default; only html.mk-js may pre-hide reveal
+         targets. Failsafe: if the app never mounts within 4s the flag is removed and everything shows. -->
+    <script>
+      (function () {
+        var d = document.documentElement
+        var reduce = /[?&]reduce\b/.test(location.search) || (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)
+        if (!reduce) d.classList.add('mk-js')
+        setTimeout(function () { if (!window.__mkReady) d.classList.remove('mk-js') }, 4000)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"><!--app--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
