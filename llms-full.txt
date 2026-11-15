@@ -1,0 +1,133 @@
+# Zeitwerk - full reference
+
+> Business automation and AI consulting and implementation firm based in Vaughan, Ontario, serving Toronto and the Greater Toronto Area. Contact: info@zeitwerk.ca. Website: https://zeitwerk.ca
+
+## Zeitwerk - home / about block
+URL: https://zeitwerk.ca/
+
+Question: What is Zeitwerk?
+Zeitwerk is a business automation and AI consulting and implementation firm based in Vaughan, Ontario. It designs, builds and maintains the automation behind business operations for companies across Toronto and the Greater Toronto Area, including Vaughan, Mississauga, Brampton, Markham and Richmond Hill, and works on-site or remotely. Zeitwerk builds six main kinds of systems: AI receptionists and phone automation, quote and estimate drafting, invoice follow-up and collections, inbox triage and email automation, document intake and processing, and reporting and data automation. Most engagements combine several of these. Every project follows the same order: understand the workflow first, then engineer the automation around it. Engagements start with a free consultation in which Zeitwerk audits a business's workflows and recommends what to automate first.
+
+## AI receptionists & phone automation
+URL: https://zeitwerk.ca/services/ai-receptionist
+
+Question: What does an AI receptionist from Zeitwerk do?
+An AI receptionist answers every call right away, 24/7, including nights and weekends. It speaks naturally, qualifies the caller, answers routine questions, books appointments and routes anything complex to the right person. Each call produces a full transcript that goes to the business's inbox. Zeitwerk builds it in four steps: map the call flow, design the voice and escalation rules, integrate with the business's calendar, CRM or ticketing tools, then test, launch and keep tuning on real calls. When the AI shouldn't handle a call, it can transfer to a person, take a structured message, send an urgent alert or schedule a callback. Typical users are property managers handling tenant calls, trades and home-service companies, and clinics, law offices and professional practices. Pricing depends on call volume and integrations and is scoped per project after a free consultation.
+
+### Frequently asked questions
+Q: Will callers know they're talking to an AI?
+A: Modern AI voices are remarkably natural, but we don't recommend pretending otherwise — the receptionist can identify itself, and callers care far more about being helped immediately than about who answers. It handles routine matters completely and hands off gracefully when a human is needed.
+
+Q: What happens when the AI can't handle a call?
+A: Escalation rules are designed with you before launch. The system can transfer to a person, take a structured message, send an urgent alert or schedule a callback — and every call produces a transcript, so nothing is lost.
+
+Q: Does this replace my receptionist?
+A: Usually it protects them. The AI absorbs after-hours calls, overflow and repetitive questions so your team can focus on the conversations that actually need a person.
+
+Q: What does an AI receptionist cost in Toronto?
+A: It depends on call volume and the systems we integrate with, so we scope each project individually. Start with a free consultation — we'll audit your call flow and give you a clear recommendation and quote before you commit to anything.
+
+## Quote & estimate automation
+URL: https://zeitwerk.ca/services/quote-automation
+
+Question: How does quote automation work?
+Zeitwerk's quote automation reads each inbound request, whether it came by email, web form or call notes. It applies the business's own approved pricing rules and drafts an accurate, branded quote that's ready for one-click review, so quotes go out in minutes instead of days. Routine quotes can be sent automatically. Anything unusual, such as non-standard scope, missing information or out-of-range pricing, is flagged for a person first. The build has four steps: capture the pricing logic as explicit rules, build the drafting engine, add review and approval guardrails, and automate polite follow-up on sent quotes until each one is accepted, declined or expired. It works for custom jobs too: the system drafts the structured part of the quote and flags the judgment calls. It connects to the CRM, accounting and email tools the business already uses. Typical users are trades, contractors, suppliers and professional-services firms.
+
+### Frequently asked questions
+Q: How does the system keep quotes accurate?
+A: It only applies pricing rules you've approved, and we build in guardrails together: anything outside normal parameters — unusual scope, missing information, non-standard pricing — is routed to a person for review instead of being sent blind.
+
+Q: Our jobs are custom. Can this still work?
+A: Yes — that's the typical case, not the exception. The system drafts the structured majority of each quote and flags the judgment calls for you, which still turns a days-long process into minutes of review.
+
+Q: Does it integrate with our CRM or accounting software?
+A: We build against the tools you already use — CRM, accounting and email — so accepted quotes flow into your existing pipeline instead of another disconnected app.
+
+Q: What does quoting automation cost?
+A: It depends on how complex your pricing logic is and what we integrate with. We scope every project individually — book a free consultation and we'll map your quoting workflow and give you a clear recommendation first.
+
+## Invoice follow-up & collections
+URL: https://zeitwerk.ca/services/invoice-follow-up
+
+Question: What is automated invoice follow-up?
+Zeitwerk's invoice follow-up automation chases unpaid invoices for the business. It sends polite, personalized reminders by email, two-way SMS and natural-sounding AI voice calls, paced and escalated on a cadence agreed with the client, and it tracks every touch. It connects to the invoicing or accounting system, so it always knows what's outstanding, and a payment stops the reminders automatically. Disputes, hardship cases, lapsed payment promises and balances past a set threshold go to the business's team with the full history. Everything else resolves without staff involvement. Zeitwerk's Intelligent Collections Engine case study, a two-way SMS and AI voice system for rent collections, reported a 98% SMS delivery rate and 70% fewer manual calls. Typical users are property managers, landlords, trades, agencies and professional-services firms.
+
+### Frequently asked questions
+Q: Won't automated collections annoy my customers?
+A: Done crudely, yes — which is why we calibrate tone and pacing with you before anything goes out. Polite, well-spaced, personalized reminders are far less irritating than a tense phone call after ninety days of silence, and customers respond to them.
+
+Q: What channels can it use?
+A: Email, two-way SMS and natural-sounding AI voice calls, in whatever combination fits your customers. Messages adapt to the customer and the invoice rather than following one static script.
+
+Q: When does a human get involved?
+A: Whenever you decide: disputes, promised payments that lapse, sensitive accounts or balances past a threshold you set. The system hands your team the full history, so the conversation starts informed.
+
+Q: Does this work with our accounting software?
+A: We integrate with the invoicing and accounting tools you already run, so outstanding balances stay in sync and payments automatically stop the reminders.
+
+## Inbox triage & email automation
+URL: https://zeitwerk.ca/services/inbox-triage
+
+Question: What is AI inbox triage?
+AI inbox triage classifies every incoming email, surfaces urgent messages the moment they arrive, routes each item to the right owner and drafts replies for routine messages. A high-volume shared inbox becomes a queue of decisions instead of a wall of unread mail. Zeitwerk builds it on Microsoft 365 (Outlook) and Google Workspace (Gmail) inside the existing mailboxes and permissions, so no new tool is needed. By default every drafted reply waits for human approval. Fully automatic replies are turned on only for specific message types the client chooses. Confidence thresholds send uncertain messages to a person rather than guessing, and corrections are fed back so accuracy improves over time. Before launch, Zeitwerk shows the client exactly what the system reads, where data flows and what's stored. Typical users are property management offices, support desks without a ticketing system, operations teams and executives.
+
+### Frequently asked questions
+Q: What if it files something incorrectly?
+A: We build in confidence thresholds: messages the system isn't sure about are routed to a person rather than guessed at. Misclassifications get reviewed and fed back in, so the system gets sharper the longer it runs.
+
+Q: Will it send email without us knowing?
+A: Only if you explicitly enable that for specific, well-defined message types. The default is drafts-for-review: a human approves everything until you're comfortable expanding the automation.
+
+Q: Does it work with Outlook and Gmail?
+A: Yes — we build on top of Microsoft 365 and Google Workspace, working with your existing mailboxes and permissions rather than asking you to move to a new tool.
+
+Q: What about confidentiality?
+A: Before anything goes live, we walk you through exactly what the system reads, where data flows and what is stored — and we design within your existing email platform and access policies.
+
+## Document intake & processing
+URL: https://zeitwerk.ca/services/document-intake
+
+Question: What is AI document intake?
+AI document intake replaces manual re-keying. It reads incoming documents, including native PDFs, scans, phone photos and forms. It extracts the fields that matter, validates them and writes them straight into the business's accounting platform, ERP, database or spreadsheets. Documents it can't read confidently go to a human review queue with the uncertain fields highlighted, so people handle judgment instead of volume. Originals are filed automatically with consistent names. It handles invoices, receipts, applications, inspection reports and most other business documents. In one engagement listed on Zeitwerk's projects page, receipt extraction reached 95%+ accuracy with automatic G/L coding. Typical users are finance teams, property and field operations, and offices with application or intake forms.
+
+### Frequently asked questions
+Q: What kinds of documents can it handle?
+A: Invoices, receipts, forms, applications, inspection reports and most other business documents — as native PDFs, scans or phone photos. If a person can read it, it's usually a candidate for automated extraction.
+
+Q: How accurate is the extraction?
+A: Modern AI extraction is highly accurate on well-structured documents, and we don't rely on blind trust: validation rules and confidence thresholds route anything questionable to human review. In one engagement published on our projects page, receipt extraction reached 95%+ accuracy with automatic G/L coding.
+
+Q: Where does the extracted data go?
+A: Wherever it needs to: your accounting software, ERP, database or spreadsheets. We build the integration so data lands in the system your team already uses.
+
+Q: What happens to the original documents?
+A: They're filed automatically — named consistently and stored where you want them — so the source is always one click from the record it produced.
+
+## Reporting & data automation
+URL: https://zeitwerk.ca/services/reporting-dashboards
+
+Question: What is automated reporting?
+Automated reporting replaces hours of weekly spreadsheet assembly. Zeitwerk traces every number in a business's current reports back to its source system. It then automates the data flow from CRM, accounting, operations and spreadsheet tools into one consistent, always-current model, and builds live dashboards with drill-down plus clean executive views. Weekly and monthly reports, including emailed PDF packs, generate and send themselves on schedule. A data warehouse isn't always needed, because the architecture is sized to the problem. In Zeitwerk's Property Intelligence Platform case study, a real-time executive dashboard across 171 properties and 17,968 units eliminated manual portfolio reporting and saved an estimated 40 hours of staff time per week. Typical users are executives running portfolios or multiple entities, operations leaders and finance teams building month-end packs.
+
+### Frequently asked questions
+Q: What data sources can you connect?
+A: Most modern business systems: CRMs, accounting platforms, operations software, databases and even the spreadsheets and email exports you rely on today. If the data exists somewhere, we can usually automate its path into the report.
+
+Q: Do we need a data warehouse for this?
+A: Not necessarily. We size the architecture to the problem — many businesses get live, trustworthy reporting without heavy data infrastructure. If your volume genuinely calls for more, we'll tell you and design for it.
+
+Q: Can we still get reports as emails or PDFs?
+A: Yes. Live dashboards and scheduled documents aren't either-or: the same automated pipeline can feed an executive dashboard and email a formatted PDF pack on whatever schedule you set.
+
+Q: What does reporting automation cost?
+A: It depends on how many sources we're connecting and how complex the reporting is. Book a free consultation — we'll audit your current reporting workflow and show you exactly what to automate first.
+
+## Case study: Property Intelligence Platform
+URL: https://zeitwerk.ca/projects/property-intelligence-platform
+
+Zeitwerk built a real-time executive dashboard for a real estate organization with 171 properties and 17,968 units. Before it, the organization had no single source of truth, and its reports were assembled by hand and days out of date. The platform computes portfolio KPIs automatically, maps every property geospatially and allows drill-down from portfolio to individual property. Manual portfolio reporting was eliminated, saving an estimated 40 hours of staff time per week, roughly $80K per year. Stack: Next.js, Supabase, Leaflet, Microsoft Graph API. Client details are anonymized, and a reference is available on request.
+
+## Case study: Intelligent Collections Engine
+URL: https://zeitwerk.ca/projects/intelligent-collections-engine
+
+Zeitwerk replaced static, one-size-fits-all rent-collection scripts with a two-way SMS and AI voice system for an organization collecting rent across a residential portfolio. Messages are personalized per resident with GPT, pacing is calibrated, and every campaign is tracked end to end. AI now handles all first contact. Manual calls fell by 70%, SMS delivery runs at 98%, and agents handle only escalated cases, for an estimated $120K per year in savings. Stack: Next.js, Supabase, Twilio, ElevenLabs, OpenAI GPT-4o. Client details are anonymized, and a reference is available on request.
